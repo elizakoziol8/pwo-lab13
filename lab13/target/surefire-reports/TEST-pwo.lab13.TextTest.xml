@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="pwo.lab13.TextTest" time="0.629" tests="19" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/opensuse/NetBeansProjects/lab13/target/test-classes:/home/opensuse/NetBeansProjects/lab13/target/classes:/home/opensuse/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.0/junit-jupiter-5.9.0.jar:/home/opensuse/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.0/junit-jupiter-api-5.6.0.jar:/home/opensuse/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/opensuse/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/opensuse/.m2/repository/org/junit/platform/junit-platform-commons/1.6.0/junit-platform-commons-1.6.0.jar:/home/opensuse/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.0/junit-jupiter-params-5.6.0.jar:/home/opensuse/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.0/junit-jupiter-engine-5.6.0.jar:/home/opensuse/.m2/repository/org/junit/platform/junit-platform-engine/1.6.0/junit-platform-engine-1.6.0.jar:"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://www.azul.com/"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/tmp/.mount_ApacheqlGWUD/usr/lib/jdk/lib"/>
+    <property name="sun.java.command" value="/home/opensuse/NetBeansProjects/lab13/target/surefire/surefirebooter-20221109090907576_3.jar /home/opensuse/NetBeansProjects/lab13/target/surefire 2022-11-09T09-09-06_130-jvmRun1 surefire-20221109090907576_1tmp surefire_0-20221109090907576_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="pwo.lab13.TextTest"/>
+    <property name="surefire.test.class.path" value="/home/opensuse/NetBeansProjects/lab13/target/test-classes:/home/opensuse/NetBeansProjects/lab13/target/classes:/home/opensuse/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.0/junit-jupiter-5.9.0.jar:/home/opensuse/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.0/junit-jupiter-api-5.6.0.jar:/home/opensuse/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/opensuse/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/opensuse/.m2/repository/org/junit/platform/junit-platform-commons/1.6.0/junit-platform-commons-1.6.0.jar:/home/opensuse/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.0/junit-jupiter-params-5.6.0.jar:/home/opensuse/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.0/junit-jupiter-engine-5.6.0.jar:/home/opensuse/.m2/repository/org/junit/platform/junit-platform-engine/1.6.0/junit-platform-engine-1.6.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/opensuse"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="/tmp/.mount_ApacheqlGWUD/usr/lib/jdk"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/opensuse/NetBeansProjects/lab13"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/home/opensuse/NetBeansProjects/lab13/target/surefire/surefirebooter-20221109090907576_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="18.0.2+9"/>
+    <property name="user.name" value="opensuse"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.14.21-150400.22-default"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Zulu18.32+11-CA"/>
+    <property name="maven.ext.class.path" value="/tmp/.mount_ApacheqlGWUD/usr/lib/netbeans/java/maven-nblib/netbeans-eventspy.jar"/>
+    <property name="localRepository" value="/home/opensuse/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://www.azul.com/support/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="18.0.2"/>
+    <property name="user.dir" value="/home/opensuse/NetBeansProjects/lab13"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vm.version" value="18.0.2+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="numOfDigitsTest2(String)[1]" classname="pwo.lab13.TextTest" time="0.204">
+    <system-out><![CDATA[Liczba cyfr w stringu: "aa23bb34sd" to 4
+]]></system-out>
+  </testcase>
+  <testcase name="notContDigitsTest2(String)[1]" classname="pwo.lab13.TextTest" time="0.02">
+    <system-out><![CDATA[String zawiera cyfry: 1x3vdsfsdf
+]]></system-out>
+  </testcase>
+  <testcase name="notContDigitsTest2(String)[2]" classname="pwo.lab13.TextTest" time="0.001">
+    <system-out><![CDATA[String zawiera cyfry: 123123
+]]></system-out>
+  </testcase>
+  <testcase name="notContDigitsTest2(String)[3]" classname="pwo.lab13.TextTest" time="0.001">
+    <system-out><![CDATA[String zawiera cyfry: aasbdf3
+]]></system-out>
+  </testcase>
+  <testcase name="cont5DigTest1(String)[1]" classname="pwo.lab13.TextTest" time="0.005">
+    <system-out><![CDATA[Test pozytywny dla: aa234bb34sd
+]]></system-out>
+  </testcase>
+  <testcase name="cont5DigTest1(String)[2]" classname="pwo.lab13.TextTest" time="0.001">
+    <system-out><![CDATA[Test pozytywny dla: 1 2 3 4 5
+]]></system-out>
+  </testcase>
+  <testcase name="cont5DigTest1(String)[3]" classname="pwo.lab13.TextTest" time="0.001">
+    <system-out><![CDATA[Test pozytywny dla: xx12x12x1x
+]]></system-out>
+  </testcase>
+  <testcase name="cont5DigTest2(String)[1]" classname="pwo.lab13.TextTest" time="0.003">
+    <system-out><![CDATA[Test negatywny dla: aa23bb34sd
+]]></system-out>
+  </testcase>
+  <testcase name="cont5DigTest2(String)[2]" classname="pwo.lab13.TextTest" time="0.002">
+    <system-out><![CDATA[Test negatywny dla: 1 2 x 4 5
+]]></system-out>
+  </testcase>
+  <testcase name="cont5DigTest2(String)[3]" classname="pwo.lab13.TextTest" time="0.002">
+    <system-out><![CDATA[Test negatywny dla: xx1x12x1x
+]]></system-out>
+  </testcase>
+  <testcase name="contOnlyDigits(String)[1]" classname="pwo.lab13.TextTest" time="0.011">
+    <system-out><![CDATA[String zawiera tylko cyfry: 798324879324
+]]></system-out>
+  </testcase>
+  <testcase name="contOnlyDigits(String)[2]" classname="pwo.lab13.TextTest" time="0.001">
+    <system-out><![CDATA[String zawiera tylko cyfry: 112323123
+]]></system-out>
+  </testcase>
+  <testcase name="contOnlyDigits(String)[3]" classname="pwo.lab13.TextTest" time="0.001">
+    <system-out><![CDATA[String zawiera tylko cyfry: 534
+]]></system-out>
+  </testcase>
+  <testcase name="contOnlyDigits2(String)[1]" classname="pwo.lab13.TextTest" time="0.002">
+    <system-out><![CDATA[String nie zawiera tylko cyfry: 79832a4879324
+]]></system-out>
+  </testcase>
+  <testcase name="contOnlyDigits2(String)[2]" classname="pwo.lab13.TextTest" time="0.001">
+    <system-out><![CDATA[String nie zawiera tylko cyfry: 112323b123
+]]></system-out>
+  </testcase>
+  <testcase name="contOnlyDigits2(String)[3]" classname="pwo.lab13.TextTest" time="0.007">
+    <system-out><![CDATA[String nie zawiera tylko cyfry: 53fg4
+]]></system-out>
+  </testcase>
+  <testcase name="numOfDigitsTest(String)[1]" classname="pwo.lab13.TextTest" time="0.017">
+    <system-out><![CDATA[Liczba cyfr w stringu: "aa23bb34sd" to 4
+]]></system-out>
+  </testcase>
+  <testcase name="notContDigitsTest(String)[1]" classname="pwo.lab13.TextTest" time="0.002">
+    <system-out><![CDATA[String nie zawiera cyfr: abcdefghj
+]]></system-out>
+  </testcase>
+  <testcase name="notContDigitsTest(String)[2]" classname="pwo.lab13.TextTest" time="0">
+    <system-out><![CDATA[String nie zawiera cyfr: asdasdg
+]]></system-out>
+  </testcase>
+</testsuite>
